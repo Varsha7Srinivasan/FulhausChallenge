@@ -1,0 +1,13 @@
+Steps to set up the project:
+
+1: npm install
+
+2: create .env file like .env.example
+
+3. run the following docker command to setup mongoDB for development : docker run -p 27017:27017 --name my-mongo -d mongo
+
+4. start the Server by running " npm run start "
+
+5. run the command " node ./scripts/upload.js" ( in a separate terminal run )
+
+6. use Postman or any rest client to test the routes.
